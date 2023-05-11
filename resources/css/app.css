@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+
+    body {
+        @apply antialiased;
+        @apply relative;
+        @apply font-sans;
+    }
+
+    body,
+    main {
+        @apply min-h-screen;
+    }
+
+    main {
+        @apply pt-20 py-16;
+    }
+}
