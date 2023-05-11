@@ -16,3 +16,6 @@ indent_size = 2
 
 [docker-compose.yml]
 indent_size = 4
+
+[*.blade.php]
+ij_html_do_not_indent_children_of_tags = none
